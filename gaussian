@@ -4,4 +4,3 @@ function probability = gaussian(x, m, v)
 probability = (1./sqrt(v.*2.*pi)) ...
                 .*exp(-((x-m).^2)./(2.*v));         
 end
-
